@@ -56,8 +56,9 @@ const add = () => {
 }
 const add_2 = () => {
     if (x>=2){
-    var i;
-    for (i=2;i<arr.length;i++) {
+        document.getElementById('main_container_2').innerHTML='';
+        var i;
+        for (i=0;i<arr.length;i++) {
             var new_elmt = document.createElement('div');
             new_elmt.id=arr[i];
             new_elmt.className='new_2';
